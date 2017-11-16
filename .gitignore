@@ -1,0 +1,5 @@
+*.zip
+*.shp
+*.pdf
+*.rtf
+/Data/*
