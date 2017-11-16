@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>City of Alexandria, VA</origin>
+    <pubdate>20040401</pubdate>
+    <title>2000 Census Blocks, City of Alexandria, VA</title>
+    <geoform>Vector Digital Data Set (Polygon)</geoform>
+    <onlink>\\SGISCHLFILEW001\GISADMIN\GISPLAN\2(Public_Data)\DATA_CD\Spring2004\Data\Census\blks00</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>This polygon dataset contains the census blocks in Alexandria, VA from the 2000 Census.</abstract>
+   <purpose>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</purpose>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <sngdate>
+     <caldate>20040401</caldate>
+    </sngdate>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>Irregular</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-77.144764998</westbc>
+    <eastbc>-77.036667167</eastbc>
+    <northbc>38.845900852</northbc>
+    <southbc>38.785811435</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>ISO 19115 Topic Category</themekt>
+    <themekey>boundaries</themekey>
+   </theme>
+   <theme>
+    <themekt>Virginia</themekt>
+    <themekey>City of Alexandria</themekey>
+    <themekey>Census</themekey>
+   </theme>
+   <place>
+    <placekt>Virginia</placekt>
+    <placekey>City of Alexandria</placekey>
+   </place>
+  </keywords>
+  <accconst>None. Please see 'Distribution Info' for details.</accconst>
+  <useconst>None. Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>City of Alexandria, VA</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing</addrtype>
+     <address>301 King Street</address>
+     <city>Alexandira</city>
+     <state>VA</state>
+     <postal>22314</postal>
+    </cntaddr>
+    <cntvoice>703.746.4357</cntvoice>
+   </cntinfo>
+  </ptcontac>
+  <native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1 (Build 5686) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Dataset copied.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>G-polygon</sdtstype>
+    <ptvctcnt>1024</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <gridsys>
+     <gridsysn>State Plane Coordinate System 1983</gridsysn>
+     <spcs>
+      <spcszone>4501</spcszone>
+      <lambertc>
+       <stdparll>38.0333333333</stdparll>
+       <stdparll>39.2</stdparll>
+       <longcm>-78.5</longcm>
+       <latprjo>37.6666666667</latprjo>
+       <feast>11482916.6667</feast>
+       <fnorth>6561666.66667</fnorth>
+      </lambertc>
+     </spcs>
+    </gridsys>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>[Unknown]</absres>
+      <ordres>[Unknown]</ordres>
+     </coordrep>
+     <plandu>Foot_US</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1983</horizdn>
+    <ellips>GRS_1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed Name="blks00">
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>STFID</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <udom>Unknown</udom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>FIPSSTCO</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>51510</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LABEL</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>20022999</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LOGRECNO</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <udom>Unknown</udom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>TRACT</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <udom>Unknown</udom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>BLKGRP</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>1</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>BLOCK</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <udom>Unknown</udom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>TOTALPOP</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>4025</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>HISPANIC</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>947</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>NON_HISP</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>3620</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>ONE_RACE</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>3196</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>WHITE</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>2254</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>BLACK</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>1499</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>AMER_IND</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>11</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>ASIAN</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>510</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>HA_PI</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>8</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>OTHER</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>45</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>TWORACES</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>424</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>POP_18</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>3510</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>HISP_18</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>702</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>N_HISP18</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>3185</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>VOTE00</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>101</rdommin>
+      <rdommax>307</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>GMU Libraries</cntorg>
+     <cntper>Digital Scholarship Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>4400 University Drive</address>
+     <city>Fairfax</city>
+     <state>VA</state>
+     <postal>22030</postal>
+    </cntaddr>
+    <cntvoice>703-993-1000</cntvoice>
+    <cntemail>datahelp@gmu.edu</cntemail>
+   </cntinfo>
+  </distrib>
+  <resdesc>Downloadable Data</resdesc>
+  <distliab>Distributor assumes no liability for misuse of data.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>Vector Digital Data Set (Polygon)</formname>
+     <transize>0.624</transize>
+    </digtinfo>
+   </digform>
+   <fees>None. No fees are applicable for obtaining the data set.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20171012</metd>
+  <metc>
+   <cntinfo>
+    <cntperp>
+     <cntper>GMU Libraries</cntper>
+     <cntorg>Digital Scholarship Center</cntorg>
+    </cntperp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>4400 University Drive</address>
+     <city>Fairfax</city>
+     <state>VA</state>
+     <postal>22030</postal>
+    </cntaddr>
+    <cntvoice>703-993-1000</cntvoice>
+    <cntemail>datahelp@gmu.edu</cntemail>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+  <metextns>
+   <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+   <metprof>ESRI Metadata Profile</metprof>
+  </metextns>
+ </metainfo>
+</metadata>

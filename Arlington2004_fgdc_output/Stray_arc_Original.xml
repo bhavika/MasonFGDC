@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20040426</CreaDate>
+    <CreaTime>11330800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090807</SyncDate>
+    <SyncTime>14001100</SyncTime>
+    <ModDate>20090807</ModDate>
+    <ModTime>14001100</ModTime>
+    <MetaID>{D728551A-6F7F-4D1D-948D-9F30074C8B05}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090807" Time="140013">CopyFeatures E:\Data\RealEstate\RealEstate.mdb\REA\Stray_arc "C:\Documents and Settings\VISITOR\Desktop\Arlington_2004\Stray_arc.shp" # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</native>
+    <descript>
+      <langdata Sync="TRUE">en</langdata>
+      <abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+      <purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+    </descript>
+    <citation>
+      <citeinfo>
+        <origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+        <pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+        <title Sync="TRUE">Stray_arc</title>
+        <ftname Sync="TRUE">Stray_arc</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink Sync="TRUE">\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Stray_arc.shp</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>REQUIRED: The basis on which the time period of content information is determined.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>REQUIRED: The state of the data set.</progress>
+      <update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-77.173925</westbc>
+        <eastbc Sync="TRUE">-77.039262</eastbc>
+        <northbc Sync="TRUE">38.935213</northbc>
+        <southbc Sync="TRUE">38.834935</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">11860632.106548</leftbc>
+        <rightbc Sync="TRUE">11898423.237368</rightbc>
+        <bottombc Sync="TRUE">6990417.918924</bottombc>
+        <topbc Sync="TRUE">7026369.980614</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+        <themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+      </theme>
+    </keywords>
+    <accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+    <useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Stray_arc</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001" />
+    </spatRpType>
+    <geoBox esriExtentType="native">
+      <westBL Sync="TRUE">11860632.106548</westBL>
+      <eastBL Sync="TRUE">11898423.237368</eastBL>
+      <northBL Sync="TRUE">7026369.980614</northBL>
+      <southBL Sync="TRUE">6990417.918924</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-77.173925</westBL>
+      <eastBL Sync="TRUE">-77.039262</eastBL>
+      <northBL Sync="TRUE">38.935213</northBL>
+      <southBL Sync="TRUE">38.834935</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+          <cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+          <city>REQUIRED: The city of the address.</city>
+          <state>REQUIRED: The state or province of the address.</state>
+          <postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+        </cntaddr>
+        <cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20090807</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Stray_arc.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Stray_arc">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polyline</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="Stray_arc">
+        <sdtstype Sync="TRUE">String</sdtstype>
+        <ptvctcnt Sync="TRUE">0</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="node">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Node</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">1057</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="node">
+        <sdtstype Sync="TRUE">Node, planar graph</sdtstype>
+        <ptvctcnt Sync="TRUE">1057</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="tic">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Tic</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1920</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="tic">
+        <sdtstype Sync="TRUE">Point</sdtstype>
+        <ptvctcnt Sync="TRUE">1920</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">38.033333</stdparll>
+            <stdparll Sync="TRUE">39.200000</stdparll>
+            <longcm Sync="TRUE">-78.500000</longcm>
+            <latprjo Sync="TRUE">37.666667</latprjo>
+            <feast Sync="TRUE">11482916.666667</feast>
+            <fnorth Sync="TRUE">6561666.666667</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001" />
+      </topLvl>
+      <geometObjs Name="Stray_arc">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">0</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Stray_arc">
+      <enttyp>
+        <enttypl Sync="TRUE">Stray_arc</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ROW_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PROP_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOT_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STRAY_FLAG</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">1</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SUBDIV_FLA</attrlabl>
+        <attalias Sync="TRUE">SUBDIV_FLA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Leng</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="strayarc.nat">
+      <enttyp>
+        <enttypl Sync="TRUE">strayarc.nat</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1057</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ARC#</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STRAYARC#</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STRAYARC-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20090807</mdDateSt>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE">20030529</date>
+        <time Sync="TRUE">11002300</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\Meridian\GIS\PGDB\RealEstate.mdb</srcused>
+        <date Sync="TRUE">20031103</date>
+        <time Sync="TRUE">08544900</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=madison; Service=5151; Database=arlgis; User=view_efisher; Version=sde.DEFAULT</srcused>
+        <date Sync="TRUE">20040426</date>
+        <time Sync="TRUE">11330800</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+</metadata>

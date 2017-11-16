@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata xml:lang="en">
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>GIS Mapping Center, Arlington VA</origin>
+    <pubdate>2004/02/26</pubdate>
+    <title>Basketball Courts, Arlington County, VA</title>
+    <geoform>vector digital data</geoform>
+    <onlink></onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>This point layer represents Arlington County Basket Courts.</abstract>
+   <purpose>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.fac</purpose>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <sngdate>
+     <caldate>2004/02/26</caldate>
+    </sngdate>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>Unknown</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-77.161165</westbc>
+    <eastbc>-77.057384</eastbc>
+    <northbc>38.924074</northbc>
+    <southbc>38.833753</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>USGS Thesaurus</themekt>
+    <themekey>facilities</themekey>
+   </theme>
+   <theme>
+    <themekt>ISO 19115 Topic Category</themekt>
+    <themekey>location</themekey>
+   </theme>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>basket courts</themekey>
+   </theme>
+  </keywords>
+  <accconst>GMU affiliates only</accconst>
+  <useconst>Educational and non-commercial purpose only</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>Arlington County, VA</cntorg>
+     <cntper>GIS Mapping Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <address>2100 Clarendon Blvd, Suite 813</address>
+     <city>Arlington</city>
+     <state>VA</state>
+     <postal>22030</postal>
+    </cntaddr>
+    <cntvoice>703-228-3649</cntvoice>
+   </cntinfo>
+  </ptcontac>
+  <native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1 (Build 5686) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm Name="Basketball_Courts">
+    <sdtstype>Entity point</sdtstype>
+    <ptvctcnt>0</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <mapproj>
+     <mapprojn>Lambert Conformal Conic</mapprojn>
+     <lambertc>
+      <stdparll>38.033333</stdparll>
+      <stdparll>39.200000</stdparll>
+      <longcm>-78.500000</longcm>
+      <latprjo>37.666667</latprjo>
+      <feast>11482916.666667</feast>
+      <fnorth>6561666.666667</fnorth>
+     </lambertc>
+    </mapproj>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.000000</absres>
+      <ordres>0.000000</ordres>
+     </coordrep>
+     <plandu>survey feet</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>North American Datum of 1983</horizdn>
+    <ellips>Geodetic Reference System 80</ellips>
+    <semiaxis>6378137.000000</semiaxis>
+    <denflat>298.257222</denflat>
+   </geodetic>
+  </horizsys>
+  <vertdef>
+   <altsys>
+    <altres>0.010000</altres>
+    <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+   </altsys>
+  </vertdef>
+ </spref>
+ <eainfo>
+  <detailed Name="Basketball_Courts">
+   <enttyp>
+    <enttypl>Basketball_Courts</enttypl>
+   </enttyp>
+   <attr>
+    <attrlabl>Shape</attrlabl>
+    <attrdef>Feature geometry.</attrdef>
+    <attrdefs>ESRI</attrdefs>
+    <attrdomv>
+     <udom>Coordinates defining the features.</udom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>PARK_NAME</attrlabl>
+   </attr>
+   <attr>
+    <attrlabl>PARK_NUM</attrlabl>
+   </attr>
+   <attr>
+    <attrlabl>FID</attrlabl>
+    <attrdef>Internal feature number.</attrdef>
+    <attrdefs>ESRI</attrdefs>
+    <attrdomv>
+     <udom>Sequential unique whole numbers that are automatically generated.</udom>
+    </attrdomv>
+   </attr>
+  </detailed>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>Arlington County, VA</cntorg>
+     <cntper>GIS Mapping Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>2100 Clarendon Blvd, Suite 813</address>
+     <city>Arlington</city>
+     <state>VA</state>
+     <postal>22201</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>703-228-3649</cntvoice>
+   </cntinfo>
+  </distrib>
+  <resdesc>Downloadable Data</resdesc>
+  <distliab> No restriction associated with the access.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <transize>0.000</transize>
+    </digtinfo>
+   </digform>
+   <fees>Download for free. However, the data may not be redistributed, resold, or copied (except for backup or internal use). Refer to the legal disclaimer and copyright notice before downloading any data.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20171009</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>GMU Libraries</cntorg>
+     <cntper>Digital Scholarship Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>4400 University Drive</address>
+     <city>Fairfax</city>
+     <state>VA</state>
+     <postal>22030</postal>
+     <country>VA</country>
+    </cntaddr>
+    <cntvoice>703-993-1000</cntvoice>
+    <cntemail>datahelp@gmu.edu</cntemail>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+  <metextns>
+   <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+   <metprof>ESRI Metadata Profile</metprof>
+  </metextns>
+ </metainfo>
+</metadata>

@@ -1,0 +1,1529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20040426</CreaDate>
+    <CreaTime>11405900</CreaTime>
+    <SyncDate>20090807</SyncDate>
+    <SyncTime>13590800</SyncTime>
+    <ModDate>20090807</ModDate>
+    <ModTime>13590800</ModTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <MetaID>{3262849C-9D3D-4DD8-B9E5-3C5746B20772}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090807" Time="140009">CopyFeatures E:\Data\RealEstate\RealEstate.mdb\REA\Property_poly "C:\Documents and Settings\VISITOR\Desktop\Arlington_2004\Property_poly.shp" # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</native>
+    <descript>
+      <langdata Sync="TRUE">en</langdata>
+      <abstract Sync="TRUE">A brief narrative summary of the data set.  REQUIRED.</abstract>
+      <purpose Sync="TRUE">A summary of the intentions with which the data set was developed.  REQUIRED.</purpose>
+    </descript>
+    <citation>
+      <citeinfo>
+        <origin Sync="TRUE">The name of an organization or individual that developed the data set.  REQUIRED.</origin>
+        <pubdate Sync="TRUE">The date when the data set is published or otherwise made available for release.  REQUIRED</pubdate>
+        <title Sync="TRUE">Property_poly</title>
+        <ftname Sync="TRUE">Property_poly</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink Sync="TRUE">\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Property_poly.shp</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current Sync="TRUE">The basis on which the time period of content information is determined.  REQUIRED.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate Sync="TRUE">The year (and optionally month, or month and day) for which the data set corresponds to the ground.  REQUIRED.</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress Sync="TRUE">The state of the data set.  REQUIRED.</progress>
+      <update Sync="TRUE">The frequency with which changes and additions are made to the data set after the initial data set is completed.  REQUIRED.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-77.173512</westbc>
+        <eastbc Sync="TRUE">-77.030478</eastbc>
+        <northbc Sync="TRUE">38.934897</northbc>
+        <southbc Sync="TRUE">38.826793</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">11860792.106229</leftbc>
+        <rightbc Sync="TRUE">11900924.094143</rightbc>
+        <bottombc Sync="TRUE">6987491.929077</bottombc>
+        <topbc Sync="TRUE">7026256.980731</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt Sync="TRUE">Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.  REQUIRED.</themekt>
+        <themekey Sync="TRUE">Common-use word or phrase used to describe the subject of the data set.  REQUIRED.</themekey>
+      </theme>
+    </keywords>
+    <accconst Sync="TRUE">Restrictions and legal prerequisites for accessing the data set.  REQUIRED.</accconst>
+    <useconst Sync="TRUE">Restrictions and legal prerequisites for using the data set after access is granted.  REQUIRED.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+  </idinfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper Sync="TRUE">The person responsible for the metadata information.  REQUIRED.</cntper>
+          <cntorg Sync="TRUE">The organization responsible for the metadata information.  REQUIRED.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype Sync="TRUE">The mailing and/or physical address for the organization or individual.  REQUIRED.</addrtype>
+          <city Sync="TRUE">The city of the address.  REQUIRED.</city>
+          <state Sync="TRUE">The state or province of the address.  REQUIRED.</state>
+          <postal Sync="TRUE">The ZIP or other postal code of the address.  REQUIRED.</postal>
+        </cntaddr>
+        <cntvoice Sync="TRUE">The telephone number by which individuals can speak to the organization or individual.  REQUIRED.</cntvoice>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20090807</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Property_poly">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="Property_poly">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">0</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="label">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Label</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">48789</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="label">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">48789</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="polygon">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">48782</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="polygon">
+        <sdtstype Sync="TRUE">GT-polygon composed of chains</sdtstype>
+        <ptvctcnt Sync="TRUE">48782</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="tic">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Tic</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1977</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="tic">
+        <sdtstype Sync="TRUE">Point</sdtstype>
+        <ptvctcnt Sync="TRUE">1977</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.addr">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">38282</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.addr">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">38282</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.block">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">8802</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.block">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">8802</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.ease">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">35</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.ease">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">35</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.lot">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">44213</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.lot">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">44213</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.misc">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">2058</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.misc">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">2058</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.rpcmstr">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">38953</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.rpcmstr">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">38953</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.rpcrange">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">425</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.rpcrange">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">425</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.sqft">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">37196</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.sqft">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">37196</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.subdiv">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">7717</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.subdiv">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">7717</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="region.block">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Region</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">1568</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="region.block">
+        <sdtstype Sync="TRUE">Composite object</sdtstype>
+        <ptvctcnt Sync="TRUE">1568</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="region.ease">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Region</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">477</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="region.ease">
+        <sdtstype Sync="TRUE">Composite object</sdtstype>
+        <ptvctcnt Sync="TRUE">477</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="region.prop">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Region</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">37709</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="region.prop">
+        <sdtstype Sync="TRUE">Composite object</sdtstype>
+        <ptvctcnt Sync="TRUE">37709</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="region.subdiv">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Region</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">185</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="region.subdiv">
+        <sdtstype Sync="TRUE">Composite object</sdtstype>
+        <ptvctcnt Sync="TRUE">185</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">38.033333</stdparll>
+            <stdparll Sync="TRUE">39.200000</stdparll>
+            <longcm Sync="TRUE">-78.500000</longcm>
+            <latprjo Sync="TRUE">37.666667</latprjo>
+            <feast Sync="TRUE">11482916.666667</feast>
+            <fnorth Sync="TRUE">6561666.666667</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="Property_poly">
+      <enttyp>
+        <enttypl Sync="TRUE">Property_poly</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCMSTR</attrlabl>
+        <attalias Sync="TRUE">RPCMSTR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Leng</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Area</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Area</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.pat">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.pat</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">48782</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REA#</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REA-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">POLY_ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tataddr">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tataddr</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">38282</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ADDR#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ADDR-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatblock">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatblock</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">8802</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatease">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatease</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">35</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatlot">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatlot</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">44213</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOT#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOT-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatmisc">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatmisc</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">2058</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MISC#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MISC-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatrpcmstr">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatrpcmstr</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">38953</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCMSTR#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCMSTR-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatrpcrange">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatrpcrange</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">425</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCRANGE#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCRANGE-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatsqft">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatsqft</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">37196</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SQFT#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SQFT-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.tatsubdiv">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.tatsubdiv</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">7717</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SUBDIV#</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SUBDIV-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="rea.patblock">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.patblock</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1568</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK#</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TRACT</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BLOCK</attrlabl>
+        <attwidth Sync="TRUE">3</attwidth>
+        <atoutwid Sync="TRUE">3</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TAXBLOCK</attrlabl>
+        <attwidth Sync="TRUE">15</attwidth>
+        <atoutwid Sync="TRUE">15</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBLK</attrlabl>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+    </detailed>
+    <detailed Name="rea.patease">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.patease</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">477</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE#</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCMSTR</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">8</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EASE_TYPE</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LEGAL_AREA</attrlabl>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Integer</attrtype>
+      </attr>
+    </detailed>
+    <detailed Name="rea.patprop">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.patprop</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">37709</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PROP#</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PROP-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVENT_ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPCMSTR</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">8</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+    </detailed>
+    <detailed Name="rea.patsubdiv">
+      <enttyp>
+        <enttypl Sync="TRUE">rea.patsubdiv</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">185</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SUBDIV#</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SUBDIV-ID</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Binary</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname Sync="TRUE">ARC</formname>
+          <filedec Sync="TRUE">No compression applied</filedec>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <accinstr Sync="TRUE">Local area network</accinstr>
+            <computer>
+              <networka>
+                <networkr Sync="TRUE">\\VATECH\D$\ai\rea_wk\rea</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Property_poly</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001" />
+    </spatRpType>
+    <geoBox esriExtentType="native">
+      <westBL Sync="TRUE">11860792.106229</westBL>
+      <eastBL Sync="TRUE">11900924.094143</eastBL>
+      <northBL Sync="TRUE">7026256.980731</northBL>
+      <southBL Sync="TRUE">6987491.929077</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-77.173512</westBL>
+      <eastBL Sync="TRUE">-77.030478</eastBL>
+      <northBL Sync="TRUE">38.934897</northBL>
+      <southBL Sync="TRUE">38.826793</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Property_poly.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001" />
+      </topLvl>
+      <geometObjs Name="Property_poly">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">0</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20090807</mdDateSt>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">c:\ai\nad83\reawk02\rea</srcused>
+        <date Sync="TRUE">20030319</date>
+        <time Sync="TRUE">10335900</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">b:\arldata83\rea\rea</srcused>
+        <date Sync="TRUE">20030515</date>
+        <time Sync="TRUE">10435900</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE">20030515</date>
+        <time Sync="TRUE">10530400</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\Meridian\GIS\PGDB\RealEstate.mdb</srcused>
+        <date Sync="TRUE">20031103</date>
+        <time Sync="TRUE">08520700</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=madison; Service=5151; Database=arlgis; User=view_efisher; Version=sde.DEFAULT</srcused>
+        <date Sync="TRUE">20040426</date>
+        <time Sync="TRUE">11405900</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+</metadata>

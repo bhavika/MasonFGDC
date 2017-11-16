@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <pubdate>2/26/2004</pubdate>
+    <title>Community Cannie Areas, Arington County, VA</title>
+    <geoform>Vector Digital Data Set (Point)</geoform>
+    <onlink>\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Community_Canine_Areas.shp</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>This point layer indicates Community designated dog exercise areas.</abstract>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <sngdate>
+     <caldate>2004/02/26</caldate>
+    </sngdate>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>Unknown</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-77.156303113</westbc>
+    <eastbc>-77.076011375</eastbc>
+    <northbc>38.923106861</northbc>
+    <southbc>38.838013645</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>ISO 19115 Topic Category</themekt>
+    <themekey>location</themekey>
+   </theme>
+   <place>
+    <placekt>None</placekt>
+    <placekey>Arlington county, VA</placekey>
+    <placekey>Virginia</placekey>
+   </place>
+  </keywords>
+  <accconst>No restriction or limitation is associated with the access.</accconst>
+  <useconst>None. No fees are applicable for obtaining the data set.</useconst>
+  <native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1 (Build 5686) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Point</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>Entity point</sdtstype>
+    <ptvctcnt>6</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <gridsys>
+     <gridsysn>State Plane Coordinate System 1983</gridsysn>
+     <spcs>
+      <spcszone>4501</spcszone>
+      <lambertc>
+       <stdparll>38.0333333333</stdparll>
+       <stdparll>39.2</stdparll>
+       <longcm>-78.5</longcm>
+       <latprjo>37.6666666667</latprjo>
+       <feast>11482916.6667</feast>
+       <fnorth>6561666.66667</fnorth>
+      </lambertc>
+     </spcs>
+    </gridsys>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>[Unknown]</absres>
+      <ordres>[Unknown]</ordres>
+     </coordrep>
+     <plandu>Foot_US</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1983</horizdn>
+    <ellips>GRS_1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed Name="Community_Canine_Areas">
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>PARK_NAME</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Benjamin Banneker Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Ft. Ethan Allen Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Glencarlyn Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shirlington Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Towers Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Utah Park</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>ZIP_CODE</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>22204</rdommin>
+      <rdommax>22304</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>PARK_NUM</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>50</rdommin>
+      <rdommax>163</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>Arlington County, VA</cntorg>
+     <cntper>GIS Mapping Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>2100 Clarendon Blvd, Suite 812</address>
+     <city>Arlington</city>
+     <state>VA</state>
+     <postal>22201</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>703-228-3649</cntvoice>
+   </cntinfo>
+  </distrib>
+  <resdesc>Downloadable Data</resdesc>
+  <distliab>Distributor assumes no liability for misuse of data.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>Vector Digital Data Set (Point)</formname>
+     <transize>0.000</transize>
+    </digtinfo>
+   </digform>
+   <fees>None. No fees are applicable for obtaining the data set.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20171009</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>GML Libraries</cntorg>
+     <cntper>Digital Scholarship Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>4400 University Drive</address>
+     <city>Fairfax</city>
+     <state>VA</state>
+     <postal>22030</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>703-993-1000</cntvoice>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+  <metextns>
+   <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+   <metprof>ESRI Metadata Profile</metprof>
+  </metextns>
+ </metainfo>
+</metadata>

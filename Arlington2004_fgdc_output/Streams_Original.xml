@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20040514</CreaDate>
+    <CreaTime>16022600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090807</SyncDate>
+    <SyncTime>13432700</SyncTime>
+    <ModDate>20090807</ModDate>
+    <ModTime>13432700</ModTime>
+    <MetaID>{2C0A62E3-9894-4A4A-BBCC-067E51BE6055}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090807" Time="134333">CopyFeatures E:\Data\County\County.mdb\County\Streams "C:\Documents and Settings\VISITOR\Desktop\Arlington_2004\Streams.shp" # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink Sync="TRUE">\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Streams.shp</onlink>
+        <origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+        <pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+        <title Sync="TRUE">Streams</title>
+        <ftname Sync="TRUE">Streams</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</native>
+    <descript>
+      <langdata Sync="TRUE">en</langdata>
+      <abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+      <purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+    </descript>
+    <timeperd>
+      <current>REQUIRED: The basis on which the time period of content information is determined.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>REQUIRED: The state of the data set.</progress>
+      <update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-77.171992</westbc>
+        <eastbc Sync="TRUE">-77.040324</eastbc>
+        <northbc Sync="TRUE">38.933482</northbc>
+        <southbc Sync="TRUE">38.826736</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">11861226.120000</leftbc>
+        <rightbc Sync="TRUE">11898131.070000</rightbc>
+        <bottombc Sync="TRUE">6987426.870000</bottombc>
+        <topbc Sync="TRUE">7025747.760000</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+        <themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+      </theme>
+    </keywords>
+    <accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+    <useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Streams.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">b:\arldata83\storm\storm</srcused>
+        <date Sync="TRUE">20021230</date>
+        <time Sync="TRUE">09031500</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">c:\a_work\rjn\storm\storm</srcused>
+        <date Sync="TRUE">20021230</date>
+        <time Sync="TRUE">09461000</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE">20030414</date>
+        <time Sync="TRUE">13384200</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\Meridian\GIS\PGDB\StormWater.mdb</srcused>
+        <date Sync="TRUE">20030515</date>
+        <time Sync="TRUE">08295400</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=madison; Service=5151; Database=arlgis; User=viewer; Version=sde.DEFAULT</srcused>
+        <date Sync="TRUE">20040205</date>
+        <time Sync="TRUE">13325100</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\Madison\SDEDATA\PGDB\StormWater.mdb</srcused>
+        <date Sync="TRUE">20040514</date>
+        <time Sync="TRUE">16022600</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Streams</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001" />
+    </spatRpType>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-77.171992</westBL>
+      <eastBL Sync="TRUE">-77.040324</eastBL>
+      <northBL Sync="TRUE">38.933482</northBL>
+      <southBL Sync="TRUE">38.826736</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">11861226.12</westBL>
+          <eastBL Sync="TRUE">11898131.07</eastBL>
+          <northBL Sync="TRUE">7025747.76</northBL>
+          <southBL Sync="TRUE">6987426.87</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+          <cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+          <city>REQUIRED: The city of the address.</city>
+          <state>REQUIRED: The state or province of the address.</state>
+          <postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+        </cntaddr>
+        <cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20090807</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Streams">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polyline</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <XYRank Sync="TRUE">2</XYRank>
+        <ZRank Sync="TRUE">1</ZRank>
+        <topoWeight Sync="TRUE">5.000000</topoWeight>
+        <validateEvents Sync="TRUE">FALSE</validateEvents>
+        <partTopoRules>
+          <topoRuleID Sync="TRUE">1</topoRuleID>
+        </partTopoRules>
+        <partTopoRules>
+          <topoRuleID Sync="TRUE">2</topoRuleID>
+        </partTopoRules>
+        <partTopoRules>
+          <topoRuleID Sync="TRUE">3</topoRuleID>
+        </partTopoRules>
+      </esriterm>
+      <sdtsterm Name="Streams">
+        <sdtstype Sync="TRUE">String</sdtstype>
+        <ptvctcnt Sync="TRUE">0</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="node">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Node</efeageom>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <efeacnt Sync="TRUE">22259</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="node">
+        <sdtstype Sync="TRUE">Node, planar graph</sdtstype>
+        <ptvctcnt Sync="TRUE">22259</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="tic">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Tic</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1257</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="tic">
+        <sdtstype Sync="TRUE">Point</sdtstype>
+        <ptvctcnt Sync="TRUE">1257</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.arclabel">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">20646</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.arclabel">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">20646</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="annotation.nodelabel">
+        <efeatyp Sync="TRUE" />
+        <efeageom Sync="TRUE">Annotation</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">22281</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="annotation.nodelabel">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">22281</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">38.033333</stdparll>
+            <stdparll Sync="TRUE">39.200000</stdparll>
+            <longcm Sync="TRUE">-78.500000</longcm>
+            <latprjo Sync="TRUE">37.666667</latprjo>
+            <feast Sync="TRUE">11482916.666667</feast>
+            <fnorth Sync="TRUE">6561666.666667</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">0.010000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Virginia_North_FIPS_4501_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001" />
+      </topLvl>
+      <geometObjs Name="Streams">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">0</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Streams">
+      <enttyp>
+        <enttypl Sync="TRUE">Streams</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">STREAM</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attalias Sync="TRUE">STREAM</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MAPQUAD</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attalias Sync="TRUE">MAPQUAD</attalias>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">4</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">6</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">7</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Leng</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+    <detailed Name="storm.nat">
+      <enttyp>
+        <enttypl Sync="TRUE">storm.nat</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">22259</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ARC#</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STORM#</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STORM-ID</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GID</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">6</atoutwid>
+        <attrtype Sync="TRUE">Integer</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GIS_ID</attrlabl>
+        <attwidth Sync="TRUE">40</attwidth>
+        <atoutwid Sync="TRUE">40</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STRUCT_1</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">8</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SID</attrlabl>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atoutwid Sync="TRUE">8</atoutwid>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FACILITYTYPE</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INVERTELEV</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">6</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RIMELEV</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">6</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MATERIAL</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATUS</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OWNER</attrlabl>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">YEARBUILT</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">4</atoutwid>
+        <attrtype Sync="TRUE">Integer</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOURCEDWGNAME</attrlabl>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atoutwid Sync="TRUE">30</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOURCEDWGNUM</attrlabl>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atoutwid Sync="TRUE">30</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LABEL</attrlabl>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atoutwid Sync="TRUE">16</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WATERSHED</attrlabl>
+        <attwidth Sync="TRUE">36</attwidth>
+        <atoutwid Sync="TRUE">36</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MAPQUAD</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">7</atoutwid>
+        <attrtype Sync="TRUE">Character</attrtype>
+      </attr>
+    </detailed>
+    <detailed Name="storm.tatarclabel">
+      <enttyp>
+        <enttypl Sync="TRUE">storm.tatarclabel</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">20646</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ARCLABEL#</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ARCLABEL-ID</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LABEL</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">16</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+    <detailed Name="storm.tatnodelabel">
+      <enttyp>
+        <enttypl Sync="TRUE">storm.tatnodelabel</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">22281</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NODELABEL#</attrlabl>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NODELABEL-ID</attrlabl>
+        <attwidth Sync="TRUE">7</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef Sync="TRUE">User-defined feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20090807</mdDateSt>
+</metadata>

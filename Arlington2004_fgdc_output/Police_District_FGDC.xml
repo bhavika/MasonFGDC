@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <pubdate>2003/4/14</pubdate>
+    <title>Police District, Arlington County, VA</title>
+    <geoform>Vector Digital Data Set (Polygon)</geoform>
+    <onlink>\\GIS-VISITOR\C$\Documents and Settings\VISITOR\Desktop\Arlington_2004\Police_District.shp</onlink>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>This polygon represents the boundaries of Police Districts, Arlington County, VA</abstract>
+   <purpose>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data</purpose>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <sngdate>
+     <caldate>2003/4/14</caldate>
+    </sngdate>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-77.173515297</westbc>
+    <eastbc>-77.030477764</eastbc>
+    <northbc>38.934896882</northbc>
+    <southbc>38.826597641</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>ISO 19115 Topic Category</themekt>
+    <themekey>boundaries</themekey>
+   </theme>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>Police district</themekey>
+   </theme>
+  </keywords>
+  <accconst>No restriction or limitation associated with the access.</accconst>
+  <useconst>None</useconst>
+  <native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1 (Build 5686) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>G-polygon</sdtstype>
+    <ptvctcnt>4</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <gridsys>
+     <gridsysn>State Plane Coordinate System 1983</gridsysn>
+     <spcs>
+      <spcszone>4501</spcszone>
+      <lambertc>
+       <stdparll>38.0333333333</stdparll>
+       <stdparll>39.2</stdparll>
+       <longcm>-78.5</longcm>
+       <latprjo>37.6666666667</latprjo>
+       <feast>11482916.6667</feast>
+       <fnorth>6561666.66667</fnorth>
+      </lambertc>
+     </spcs>
+    </gridsys>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>[Unknown]</absres>
+      <ordres>[Unknown]</ordres>
+     </coordrep>
+     <plandu>Foot_US</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1983</horizdn>
+    <ellips>GRS_1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed Name="Police_District">
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>DID</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>1D</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>2D</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3D</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4D</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>DISTRICT</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>1</rdommin>
+      <rdommax>4</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>SHAPE_Leng</attrlabl>
+    <attrdef>Unknown</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>47784.5876669</rdommin>
+      <rdommax>88444.0334873</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>SHAPE_Area</attrlabl>
+    <attrdef>Area of feature in internal units squared.</attrdef>
+    <attrdefs>ESRI</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>119354665.541</rdommin>
+      <rdommax>302513969.782</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>Arlington County, VA</cntorg>
+     <cntper>GIS Mapping Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>2100  Clarendon Blvd, Suite 813</address>
+     <city>Arlington</city>
+     <state>VA</state>
+     <postal>22201</postal>
+    </cntaddr>
+    <cntvoice>703-228-3649</cntvoice>
+   </cntinfo>
+  </distrib>
+  <resdesc>Downloadable Data</resdesc>
+  <distliab>Distributor assumes no liability for misuse of data.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>Vector Digital Data Set (Polygon)</formname>
+     <transize>0.000</transize>
+    </digtinfo>
+   </digform>
+   <fees>None. No fees are applicable for obtaining the data set.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20171010</metd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntper>Digital Scholarship Center</cntper>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>4400 University Drive</address>
+     <city>Fairfax</city>
+     <state>VA</state>
+     <postal>22030</postal>
+    </cntaddr>
+    <cntvoice>703-993-1000</cntvoice>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+  <metextns>
+   <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+   <metprof>ESRI Metadata Profile</metprof>
+  </metextns>
+ </metainfo>
+</metadata>
